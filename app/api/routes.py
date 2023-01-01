@@ -12,7 +12,7 @@ api = Blueprint('api',__name__, url_prefix='/api')
 # allows us to pull data into insomnia
 @api.route('/getdata')
 def getdata():
-    return {'cat': 'dog'}
+    return {'driver': 'car'}
 
 # This will post car data to the database (on insomnia) -- mimics another back end app requesting data with our flask app
 # token is required to send the data
